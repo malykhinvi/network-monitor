@@ -1,0 +1,6 @@
+{
+  "name": "Network monitor",
+  "version": "1.0",
+  "description": "Extension displaying ajax requests",
+  "manifest_version": 3
+}
