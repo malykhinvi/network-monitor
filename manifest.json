@@ -1,9 +1,16 @@
 {
   "name": "Network monitor",
   "version": "1.0",
-  "permissions": ["storage", "activeTab"],
+  "permissions": [
+    "storage",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "browser_action": {},
   "description": "Extension displaying ajax requests",
