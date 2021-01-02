@@ -13,6 +13,6 @@
     ]
   },
   "browser_action": {},
-  "description": "Extension displaying ajax requests",
+  "description": "Extension displaying requests count",
   "manifest_version": 2
 }
